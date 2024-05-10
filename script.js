@@ -34,17 +34,14 @@ icon.addEventListener('click', function() {
     }
 });
 
+
 /* COUNTDOWN */
-// Imposta la data e l'ora di fine del countdown
 var countDownDate = new Date("Jul 26, 2024 19:30:00").getTime();
 
-// Aggiorna il countdown ogni secondo
-var countdownInterval = setInterval(function() {
+var countdownInterval = setInterval(function() {        // AGGIORNA OGNI SECONDO
 
-    // Ottieni la data e l'ora attuali
     var now = new Date().getTime();
 
-    // Trova la differenza tra ora e la data di fine
     var distance = countDownDate - now;
 
     // CALCOLO GIORNI-ORE-MINUTI-SECONDI
@@ -58,7 +55,6 @@ var countdownInterval = setInterval(function() {
     document.getElementById("minutes").innerHTML = String(minutes).padStart(2, '0');
     document.getElementById("seconds").innerHTML = String(seconds).padStart(2, '0');
 
-    // Se il countdown è finito, visualizza un messaggio
     if (distance < 0) {
         clearInterval(countdownInterval);
         document.getElementById("countdown").innerHTML = "FINISHED COUNTDOWN";

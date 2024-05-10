@@ -46,7 +46,7 @@
     font-size: 10px;
 }
 
-/* DIMENSIONE ICONASE CONNECTER*/
+/* DIMENSIONE ICONA SE CONNECTER*/
 .bi-font{
     font-size: 13px;
 }
@@ -128,7 +128,7 @@
     color: #318CE7;
 }
 
-/* COUNTDOWN */
+/* COUNTDOWN NUMERICO */
 #countdown {
     font-size: 38px;
     font-family: "Source Sans 3", sans-serif;
@@ -153,6 +153,32 @@
     font-weight: 400;
 }
 
+/* BOTTONE COUNTDOWN */
+.countdown-button{
+    font-size: 12px;
+    width: 310px;
+    height: 30px;
+    background-color: #EFF4FA;
+    color: #0D6FEF;
+    padding: 5px;
+    text-align: center;
+}
+
+.countdown-button:hover{
+    background-color: #EFF4FA;
+    color: #0D6FEF;
+}
+
+.title-sx{
+    font-size: 15px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    color: #1F66BA;
+    margin-bottom: 0;
+}
+
+
+
 /* SECONDA COLONNA*/
 .col2 {
     padding-top: 0;
@@ -176,7 +202,7 @@
 }
 
 .last-news:hover{
-    color: #1775A9;
+    color: #1F66BA;
 }
 
 .description-news{
@@ -209,7 +235,7 @@
 }
 
 .normal-news:hover{
-    color: #1775A9;
+    color: #1F66BA;
 }
 
 
@@ -232,13 +258,12 @@
 }
 
 .link-news:hover{
-    color: #1775A9;
+    color: #1F66BA;
 }
 
 /* ICONA ELENCO LINK-NEWS */
-
 .bi-arrow-right{
-    color: #1f66ba;
+    color: #1F66BA;
     font-size: 17px;
 }
 
@@ -449,13 +474,6 @@
     transform: translateX(16px);
 }
 
-/* ELENCO NOTIZIE AL MINUTO */
-.little-news-container{
-    overflow: auto;
-    overflow-x: hidden;
-    position: relative;
-}
-
 /* IMPORTANTE PER SFUMATURA ELENCO */
 .little-news-row{
     position: relative;
@@ -471,26 +489,6 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Effetto di dissolvenza */
 }
 /* FINE SFUMATURA */
-
-.news-hour{
-    font-size: 14px;
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: normal;
-    width: 20px !important;
-}
-
-.little-news{
-    font-size: 15px;
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 400;
-    color: #163860;
-    line-height: 1;
-    text-decoration: none;
-}
-
-.little-news:hover{
-    color: #1775A9;
-}
 
 /* BOTTONE FINALE FLASH-NEWS */
 .btn-flash-news{
