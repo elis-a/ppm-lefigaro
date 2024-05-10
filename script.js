@@ -60,10 +60,3 @@ var countdownInterval = setInterval(function() {        // AGGIORNA OGNI SECONDO
         document.getElementById("countdown").innerHTML = "FINISHED COUNTDOWN";
     }
 }, 1000);
-
-
-
-/* ALARM ABBONAMENTO */
-/*document.querySelector('#bottom-element .close-btn').addEventListener('click', function() {
-    document.getElementById('bottom-element').style.display = 'none';
-});*/

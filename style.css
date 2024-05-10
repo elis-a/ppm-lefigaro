@@ -511,54 +511,37 @@
 
 
 
-
-
-
-
-
-
-
-
 /* ALARM ABBONAMENTO */
-/*#bottom-element {
+#bottom-banner {
     position: fixed;
     bottom: 0;
+    height:52px;
     width: 100%;
-    height: 52px;
     background-color: #0D6FEF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-right: 20px;
-    z-index: 2;
-}
-
-#bottom-element .flex-row {
+    color: #ffffff;
+    font-family: "Noto Serif", serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-#bottom-element .first-line {
-    font-size: 14px;
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: normal;
-    color: white;
-    line-height: 5px;
-    margin-bottom: 0;
+#bottom-banner .close-btn {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.bi-x{
+    font-size: 25px;
 }
 
 .btn-yellow {
-    background-color: #D99814 !important;
-    color: #163860 !important;
+    background-color: #ECB62F;
+    color: #163860;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Source Sans 3", sans-serif;
 }
-
-#bottom-element .close-btn {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-}*/
